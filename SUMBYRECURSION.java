@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class SUMBYRECURSION {
     static int sumof(int n){
         int sum=0;
@@ -7,7 +8,9 @@ public class SUMBYRECURSION {
         return sum;
     }
     public static void main(String[] args) {
-        int x=5;
+        Scanner sc= new Scanner(System.in);
+            int x= sc.nextInt();
+        
         System.out.println(sumof(x));
     }
     
