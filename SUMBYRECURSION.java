@@ -9,6 +9,7 @@ public class SUMBYRECURSION {
     }
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
+        System.out.println("enter no. upto which u want the sum")
             int x= sc.nextInt();
         
         System.out.println(sumof(x));
