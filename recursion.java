@@ -8,7 +8,6 @@ class recursion {
       }
     }
     public static void main(String[] args) {
-        System.out.println("Try programiz.pro");
-        pattern(5);
+               pattern(5);
     }
   }
